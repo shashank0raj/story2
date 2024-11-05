@@ -58,7 +58,9 @@ When a vote is cast, it is added to the candidate's existing encrypted vote coun
 1. **Administrator**
    - **Tally Votes**: Calculates and decrypts the total votes to obtain election results.
    - **Oversee Elections**: Initiates new elections and resets the voting process when necessary.
+     
      ![admin_dashboard](https://github.com/user-attachments/assets/9a047e28-a9b6-401d-bf60-720b0601388a)
+     This image shows the Calculated Results.
 
 
 2. **Candidate**

@@ -1,5 +1,5 @@
 # Introduction
-The E-Voting in Homomorphic Encryption in Cloud project is an innovative web development application that enhances the security and privacy of electoral processes through advanced cryptography. This online voting system ensures voter confidentiality by using homomorphic encryption to enable votes to be cast and counted without disclosing individual choices.  The project utilizes a cloud-based MongoDB database to securely store user credentials and encrypted votes, enabling efficient management by administrators. This project intends to offer a strong and user-friendly platform for holding elections while preserving the secrecy and integrity of the voting process, with separate user roles for administrators, candidates, and voters.
+The E-Voting with Homomorphic Encryption in Cloud project is an innovative web development application that enhances the security and privacy of electoral processes through advanced cryptography. This online voting system ensures voter confidentiality by using homomorphic encryption to enable votes to be cast and counted without disclosing individual choices.  The project utilizes a cloud-based MongoDB database to securely store user credentials and encrypted votes, enabling efficient management by administrators. This project intends to offer a strong and user-friendly platform for holding elections while preserving the secrecy and integrity of the voting process, with separate user roles for administrators, candidates, and voters.
 
 When a vote is cast, it is added to the candidate's existing encrypted vote count in real-time. The administrator's sole responsibility is to decrypt the final tally using their private key, ensuring the confidentiality of individual votes. This real-time vote aggregation distinguishes this project from others in the field.
 
@@ -9,8 +9,9 @@ When a vote is cast, it is added to the candidate's existing encrypted vote coun
 2. [Technologies Used](#technologies-used)
 3. [Installation & Setup](#installation--setup)
 4. [Usage Guide](#usage-guide)
-5. [Security Considerations](#security-considerations)
-6. [License](#license)
+5. [Roles](#roles)
+6. [Security Considerations](#security-considerations)
+7. [License](#license)
 
 ## Features
 
@@ -53,6 +54,19 @@ When a vote is cast, it is added to the candidate's existing encrypted vote coun
 - **Resetting the Election**:Use the reset button to clear votes and reset the database for a new election.
 
 ## Role
+
+1. **Administrator**
+   - **Tally Votes**: Calculates and decrypts the total votes to obtain election results.
+   - **Oversee Elections**: Initiates new elections and resets the voting process when necessary.
+
+2. **Candidate**
+   - **Run for Election**: Participates in elections as a candidate after registering themselves.
+   - **View Results**: Accesses their own voting results after the tally is completed.
+
+3. **Voter**
+   - **Cast Vote**: Securely logs in to cast their vote for their preferred candidate.
+   - **Voting Status**: Maintains a record of voting to ensure they can only vote once per election.
+
 
 
 

@@ -47,19 +47,13 @@ When a vote is cast, it is added to the candidate's existing encrypted vote coun
 
 ## Usage Guide
 
-1. Register Users:
-   Use the registration routes to create administrator, candidate, and voter accounts.
-
-2. Casting Votes:
-   Voters log in, select their candidate, and cast an encrypted vote.
-
-3. Tallying Votes:
-   Administrators can calculate the election results by decrypting the vote totals and viewing the results.
-
-4. Resetting the Election:
-   Use the reset button to clear votes and reset the database for a new election.
+- **Register Users**: Use the registration routes to create administrator, candidate, and voter accounts.
+- **Casting Votes**: Voters log in, select their candidate, and cast an encrypted vote.
+- **Tallying Votes**: Administrators can calculate the election results by decrypting the vote totals and viewing the results.
+- **Resetting the Election**:Use the reset button to clear votes and reset the database for a new election.
 
 ## Role
+
 
 
 

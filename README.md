@@ -50,7 +50,7 @@ When a vote is cast, it is added to the candidate's existing encrypted vote coun
 
 - **Register Users**: Use the registration routes to create administrator, candidate, and voter accounts.
 - **Casting Votes**: Voters log in, select their candidate, and cast an encrypted vote.
-- **Tallying Votes**: Administrators calculate the election results by decrypting the total votes and viewing the results.
+- **Tallying Votes**: Administrators can calculate the election results by decrypting the vote totals and viewing the results.
 - **Resetting the Election**:Use the reset button to clear votes and reset the database for a new election.
 
 ## Role
@@ -58,18 +58,25 @@ When a vote is cast, it is added to the candidate's existing encrypted vote coun
 1. **Administrator**
    - **Tally Votes**: Calculates and decrypts the total votes to obtain election results.
    - **Oversee Elections**: Initiates new elections and resets the voting process when necessary.
-     
-![admin_dashboard](https://github.com/user-attachments/assets/9a047e28-a9b6-401d-bf60-720b0601388a)
-     This image shows the Calculated Results.
 
+![admin_dashboard](https://github.com/user-attachments/assets/9b58639e-6f1b-4422-a3d2-5ffdda01bc95)
+This Image shows the Calculated Results.
+    
 
 2. **Candidate**
    - **Run for Election**: Participates in elections as a candidate after registering themselves.
    - **View Results**: Accesses their own voting results after the tally is completed.
+  
+![candidate_dashboard](https://github.com/user-attachments/assets/7d95f0e0-2f51-4e79-93e9-2cd7ae8acda6)
+This Imgae showing the number of vote the Individual candidate has got.
+
 
 3. **Voter**
    - **Cast Vote**: Securely logs in to cast their vote for their preferred candidate.
    - **Voting Status**: Maintains a record of voting to ensure they can only vote once per election.
+
+![voter_dashboard](https://github.com/user-attachments/assets/de0e1106-4e6f-4f68-86ac-d01f5bd25243)
+This Imgae shows the option of candidates to vote.
 
 
 

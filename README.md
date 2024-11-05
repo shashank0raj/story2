@@ -20,7 +20,7 @@ When a vote is cast, it is added to the candidate's existing encrypted vote coun
 - **Role-Based Access Control**: Differentiates user roles for administrators, candidates, and voters, enhancing security and user management.
 - **Cloud-Based Database**: Employs MongoDB for secure storage of user credentials and encrypted votes, providing reliable data management.
 
-- ## Technologies Used
+## Technologies Used
 
 - **Programming Languages**: Python, JavaScript
 - **Frameworks**: Flask for web development

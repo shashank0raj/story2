@@ -10,8 +10,8 @@ When a vote is cast, it is added to the candidate's existing encrypted vote coun
 3. [Installation & Setup](#installation--setup)
 4. [Usage Guide](#usage-guide)
 5. [Roles](#roles)
-6. [Security Considerations](#security-considerations)
-7. [License](#license)
+6. [License](#license)
+7. [Contributing](#contributing)
 
 ## Features
 
@@ -78,14 +78,17 @@ This Imgae showing the number of vote the Individual candidate has got.
 ![voter_dashboard](https://github.com/user-attachments/assets/de0e1106-4e6f-4f68-86ac-d01f5bd25243)
 This Imgae shows the option of candidates to vote.
 
-
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+## Contributing
 
+Contributions are welcome and encouraged! If you would like to help improve this project, please follow these steps:
 
+1. **Fork the Repository**: Click on the "Fork" button at the top of this page to create a copy of this repository under your GitHub account.
+2. **Clone the Forked Repository**: Clone your forked repo to your local machine.
+3. **Pull Request**: After valid updation submit a pull request.
 
 
 
